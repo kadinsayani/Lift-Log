@@ -14,6 +14,7 @@
 		B7D8C66B255DAD4A00DDD3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66A255DAD4A00DDD3DC /* Assets.xcassets */; };
 		B7D8C66E255DAD4A00DDD3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66D255DAD4A00DDD3DC /* Preview Assets.xcassets */; };
 		B7D8C671255DAD4A00DDD3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66F255DAD4A00DDD3DC /* LaunchScreen.storyboard */; };
+		B7D8C67A255DB08400DDD3DC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D8C679255DB08400DDD3DC /* ExerciseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B7D8C66D255DAD4A00DDD3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7D8C670255DAD4A00DDD3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D8C672255DAD4A00DDD3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D8C679255DB08400DDD3DC /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B7D8C661255DAD4800DDD3DC /* AppDelegate.swift */,
 				B7D8C663255DAD4800DDD3DC /* SceneDelegate.swift */,
 				B7D8C665255DAD4800DDD3DC /* ContentView.swift */,
+				B7D8C679255DB08400DDD3DC /* ExerciseView.swift */,
 				B7D8C66A255DAD4A00DDD3DC /* Assets.xcassets */,
 				B7D8C66F255DAD4A00DDD3DC /* LaunchScreen.storyboard */,
 				B7D8C672255DAD4A00DDD3DC /* Info.plist */,
@@ -152,6 +155,7 @@
 				B7D8C669255DAD4800DDD3DC /* Lift_Log.xcdatamodeld in Sources */,
 				B7D8C664255DAD4800DDD3DC /* SceneDelegate.swift in Sources */,
 				B7D8C666255DAD4800DDD3DC /* ContentView.swift in Sources */,
+				B7D8C67A255DB08400DDD3DC /* ExerciseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
