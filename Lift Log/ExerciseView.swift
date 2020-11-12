@@ -34,18 +34,15 @@ struct ExerciseView: View {
                     /// TODO
                 }, label: {
                     Text("Goal: 255")
-                        .font(/*@START_MENU_TOKEN@*/.callout/*@END_MENU_TOKEN@*/)
-                        .fontWeight(.light)
+                        .font(/*@START_MENU_TOKEN@*/.body/*@END_MENU_TOKEN@*/)
+                        .fontWeight(.regular)
                 })
             }.padding()
             HStack {
-                Image(systemName: "arrow.up")
-                    .font(.largeTitle)
-                    .foregroundColor(Color.green)
                 Text("45%")
                     .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.green)
+                    .fontWeight(.semibold)
+                    .foregroundColor(Color.blue)
             }
             Spacer()
         }
