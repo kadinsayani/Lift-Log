@@ -7,11 +7,14 @@
 
 import SwiftUI
 
-struct ExerciseView: View {
+struct ExerciseDetail: View {
+    
+    var exercise:Exercise
+    
     var body: some View {
         VStack {
             HStack {
-                Text("Bench Press")
+                Text(exercise.name)
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 Spacer()
                 Button(action: {
@@ -22,10 +25,26 @@ struct ExerciseView: View {
             }.padding()
             Spacer()
             List {
-                Text("Today")
-                Text("Date")
-                Text("Date")
-                Text("Date")
+                HStack {
+                    Text("Today")
+                    Spacer()
+                    Text("200 lb")
+                }
+                HStack {
+                    Text("Date")
+                    Spacer()
+                    Text("200 lb")
+                }
+                HStack {
+                    Text("Date")
+                    Spacer()
+                    Text("200 lb")
+                }
+                HStack {
+                    Text("Date")
+                    Spacer()
+                    Text("200 lb")
+                }
             }
             Spacer()
             HStack {
@@ -51,6 +70,6 @@ struct ExerciseView: View {
 
 struct ExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseView()
+        ExerciseDetail(exercise: exerciseData[0])
     }
 }

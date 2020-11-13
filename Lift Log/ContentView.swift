@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ExerciseView()
+        VStack {
+            NavigationView {
+                List(exerciseData) { exercise in
+                    NavigationLink(destination: ExerciseDetail(exercise: exercise)) {
+                        ExerciseRow(exercise: exercise)
+                    }
+                }
+                .navigationBarTitle(Text("Lift Log"))
+            }
+            Spacer()
+            Button(action: {}
+                   , label: {
+                Text("Add Exercise")
+            })
+        }
     }
 }
 

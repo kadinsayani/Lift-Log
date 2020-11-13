@@ -14,7 +14,11 @@
 		B7D8C66B255DAD4A00DDD3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66A255DAD4A00DDD3DC /* Assets.xcassets */; };
 		B7D8C66E255DAD4A00DDD3DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66D255DAD4A00DDD3DC /* Preview Assets.xcassets */; };
 		B7D8C671255DAD4A00DDD3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D8C66F255DAD4A00DDD3DC /* LaunchScreen.storyboard */; };
-		B7D8C67A255DB08400DDD3DC /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D8C679255DB08400DDD3DC /* ExerciseView.swift */; };
+		B7D8C67A255DB08400DDD3DC /* ExerciseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D8C679255DB08400DDD3DC /* ExerciseDetail.swift */; };
+		B7EB33FA255F01BA004F855E /* ExerciseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB33F9255F01BA004F855E /* ExerciseRow.swift */; };
+		B7EB33FD255F0291004F855E /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB33FC255F0291004F855E /* Exercise.swift */; };
+		B7EB3400255F03E3004F855E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EB33FF255F03E3004F855E /* Data.swift */; };
+		B7EB3403255F0448004F855E /* exerciseData.json in Resources */ = {isa = PBXBuildFile; fileRef = B7EB3402255F0448004F855E /* exerciseData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +31,11 @@
 		B7D8C66D255DAD4A00DDD3DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7D8C670255DAD4A00DDD3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7D8C672255DAD4A00DDD3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7D8C679255DB08400DDD3DC /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		B7D8C679255DB08400DDD3DC /* ExerciseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetail.swift; sourceTree = "<group>"; };
+		B7EB33F9255F01BA004F855E /* ExerciseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRow.swift; sourceTree = "<group>"; };
+		B7EB33FC255F0291004F855E /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		B7EB33FF255F03E3004F855E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B7EB3402255F0448004F855E /* exerciseData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exerciseData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +71,15 @@
 				B7D8C661255DAD4800DDD3DC /* AppDelegate.swift */,
 				B7D8C663255DAD4800DDD3DC /* SceneDelegate.swift */,
 				B7D8C665255DAD4800DDD3DC /* ContentView.swift */,
-				B7D8C679255DB08400DDD3DC /* ExerciseView.swift */,
+				B7EB33FF255F03E3004F855E /* Data.swift */,
+				B7EB3402255F0448004F855E /* exerciseData.json */,
+				B7D8C679255DB08400DDD3DC /* ExerciseDetail.swift */,
+				B7EB33F9255F01BA004F855E /* ExerciseRow.swift */,
 				B7D8C66A255DAD4A00DDD3DC /* Assets.xcassets */,
 				B7D8C66F255DAD4A00DDD3DC /* LaunchScreen.storyboard */,
 				B7D8C672255DAD4A00DDD3DC /* Info.plist */,
 				B7D8C667255DAD4800DDD3DC /* Lift_Log.xcdatamodeld */,
+				B7EB33FC255F0291004F855E /* Exercise.swift */,
 				B7D8C66C255DAD4A00DDD3DC /* Preview Content */,
 			);
 			path = "Lift Log";
@@ -141,6 +153,7 @@
 				B7D8C671255DAD4A00DDD3DC /* LaunchScreen.storyboard in Resources */,
 				B7D8C66E255DAD4A00DDD3DC /* Preview Assets.xcassets in Resources */,
 				B7D8C66B255DAD4A00DDD3DC /* Assets.xcassets in Resources */,
+				B7EB3403255F0448004F855E /* exerciseData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +168,10 @@
 				B7D8C669255DAD4800DDD3DC /* Lift_Log.xcdatamodeld in Sources */,
 				B7D8C664255DAD4800DDD3DC /* SceneDelegate.swift in Sources */,
 				B7D8C666255DAD4800DDD3DC /* ContentView.swift in Sources */,
-				B7D8C67A255DB08400DDD3DC /* ExerciseView.swift in Sources */,
+				B7EB33FA255F01BA004F855E /* ExerciseRow.swift in Sources */,
+				B7EB33FD255F0291004F855E /* Exercise.swift in Sources */,
+				B7D8C67A255DB08400DDD3DC /* ExerciseDetail.swift in Sources */,
+				B7EB3400255F03E3004F855E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
